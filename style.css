@@ -24,10 +24,99 @@ header {
 }
 
 .profilePic {
-    display: flex;
-    justify-content: end;
-    align-items: end;
+    position: relative;
+    bottom: 90px;
+    left: 350px;
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
+.headerButton {
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DAEEF3;
+    cursor: pointer;
+}
+
+.hideButton {
+    position: relative;
+    bottom: 25px;
+    left: 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: #DAEEF3;
+    cursor: pointer;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+
+}
+
+.accountMid {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.accountEarns {
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+.navTransfer {
+    position: relative;
+    border: none;
+    margin-bottom: 30px;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to right, #86E7FF,#A7D6E1);
+    cursor: pointer;
+}
+
+.buttonCard {
+    position: relative;
+    border: none;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 50px;
+    left: 100px;
+    bottom: 140px;
+    background-image: linear-gradient(to right, #86E7FF,#A7D6E1);
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 350px;
+}
+
+.cardInfo {
+    position: relative;
+    left: 50px;
+    bottom: 160px;
+    font-size: 20px;
+}
+
+.divNav {
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 80px;
+    left: 50px;
+    bottom: 120px;
+    background-image: linear-gradient(to right, #86E7FF,#A7D6E1);
+    cursor: pointer;
+}

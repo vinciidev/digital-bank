@@ -15,49 +15,70 @@
         <container class="gradientImage">
             <h2 class="receptionText">Olá, Usuário</h2>
             <img class="profilePic" src="./assets/profile picture.png">
-            <button></button>
-            <button></button>
+            <button class="headerButton">
+                <img src="./assets/gear.svg">
+            </button>
+            <button class="headerButton">
+                <img src="./assets/question.svg">
+            </button>
         </container>
     </header>
 
     <main>
-        <h3>Conta:</h3>
-        <h2>R$ 592.245,10</h3>
-        <button>
-
+        <h3 class="account">Conta:</h3>
+        <h2 class="accountMid">R$ 592.245,10</h3>
+        <button class="hideButton" onclick="switchContent()">
+            <img src="./assets/eye-slash.svg">
         </button>
 
-        <h4>Rendimento mensal:</h4>
-        <h4>+38,10</h4>
+        <h4 class="account">Rendimento mensal:</h4>
+        <h4 class="accountEarns">+38,10</h4>
     </main>
 
     <nav>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+        <button class="navTransfer">
+            <img src="./assets/money.svg">
+            <span>Transferir</span>
+        </button>
+        <button class="navTransfer">
+            <img src="./assets/barcode.svg">
+            <span>Boleto</span>
+        </button>
+        <button class="navTransfer">
+            <img src="./assets/piggy-bank.svg">
+            <span>Caixinhas</span>
+        </button>
+        <button class="navTransfer">
+            <img src="./assets/qr-code.svg">
+            <span>QRCode</span>
+        </button>
     </nav>
 
     <div>
-        <div class=card>
-        <img src="./assets/card mockup.png">
-        <h2>Cartão</h2>
-        <h2>Fatural atual: 4,904,50</h2>
-        <h3>Limite disponível: 495,00</h3>
+        <div>
+            <img class=card src="./assets/card mockup.png">
+            <h2 class="cardInfo">Cartão</h2>
+            <h2 class="cardInfo">Fatural atual: 4,904,50</h2>
+            <h3 class="cardInfo">Limite disponível: 495,00</h3>
         </div>
-
-        <button>Aliviar Fatura</button>
-        <button>Pagar Fatura</button>
+            <button class="buttonCard">Aliviar Fatura</button>
+            <button class="buttonCard">Pagar Fatura</button>
     </div>
 
     <div>
-        <button></button>
-        <button></button>
-        <button></button>
+        <button class="divNav">
+            <img src="./assets/arrows-down-up.svg">
+        </button>
+        <button class="divNav">
+            <img src="./assets/currency-dollar-simple.svg">
+        </button>
+        <button class="divNav">
+            <img src="./assets/shopping-cart.svg">
+        </button>
     </div>
 
 
 
-
+    <script src="script.js"></script>
 </body>
 </html>
