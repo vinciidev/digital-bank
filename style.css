@@ -9,13 +9,13 @@ header {
     padding: 0;
     position: relative;
     background-image: linear-gradient(to right, #86E7FF,#A7D6E1);
-    height: 116px;
-    width: 414px;
+    height: 120px;
+    width: 100%;
 }
 
 .receptionText {
     margin: 0;
-    padding: 5px;
+    padding: ;
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -25,8 +25,8 @@ header {
 
 .profilePic {
     position: relative;
-    bottom: 90px;
-    left: 350px;
+    bottom: 70%;
+    left: 85%;
     width: 50px;
     height: 50px;
     cursor: pointer;
